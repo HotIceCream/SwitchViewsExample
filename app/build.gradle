@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'me.champeau.gradle.groovy-android'
 
 android {
     compileSdkVersion 21
@@ -22,5 +21,4 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'org.codehaus.groovy:groovy:2.4.0-beta-3:grooid'
 }
